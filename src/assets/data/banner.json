@@ -1,0 +1,28 @@
+[{
+    "id": 0,
+    "coupon": "FreeCode",
+    "coupon_price": 30,
+    "title": "Cafe Latte It While It's Fresh",
+    "slogan": "Get Cafe Latte From Our Shop",
+    "description": "Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Sed porttitor lectus nibh. Vestibulum ac diam sit amet quam vehicula.",
+    "url": "#"
+  },
+  {
+    "id": 1,
+    "coupon": "FreeCode5",
+    "coupon_price": 50,
+    "title": "Freshly Picked Arabica Green",
+    "slogan": "Can Now Be Purchased",
+    "description": "Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Sed porttitor lectus nibh. Vestibulum ac diam sit amet quam vehicula.",
+    "url": "#"
+  },
+  {
+    "id": 2,
+    "coupon": "FreeCode",
+    "coupon_price": 30,
+    "title": "Robusta Roasted Season Is Here",
+    "slogan": "Get It Today For 30% Off",
+    "description": "Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Sed porttitor lectus nibh. Vestibulum ac diam sit amet quam vehicula.",
+    "url": "#"
+  }
+]
