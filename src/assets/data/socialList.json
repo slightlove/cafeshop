@@ -1,0 +1,29 @@
+[{
+    "id": 0,
+    "url": "#",
+    "name": "facebook",
+    "is_enable": false,
+    "iconName": ["fab", "facebook-f"]
+  },
+  {
+    "id": 1,
+    "url": "#",
+    "name": "twitter",
+    "is_enable": false,
+    "iconName": ["fab", "twitter"]
+  },
+  {
+    "id": 2,
+    "url": "#",
+    "name": "youtube",
+    "is_enable": false,
+    "iconName": ["fab", "youtube"]
+  },
+  {
+    "id": 3,
+    "url": "https://github.com/slightlove",
+    "name": "github",
+    "is_enable": true,
+    "iconName": ["fab", "github"]
+  }
+]

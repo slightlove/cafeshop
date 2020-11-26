@@ -1,0 +1,7 @@
+[{
+  "id": 0,
+  "name": "login",
+  "text": "登入",
+  "icon": ["fas", "sign-in-alt"],
+  "url": "login"
+}]
