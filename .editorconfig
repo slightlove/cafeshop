@@ -6,4 +6,8 @@ indent_style = space
 indent_size = 2
 end_of_line = lf
 insert_final_newline = true
+<<<<<<< HEAD
 trim_trailing_whitespace = true
+=======
+trim_trailing_whitespace = true
+>>>>>>> 8c8ac4eb34182153ae500e78e204442ef4759574

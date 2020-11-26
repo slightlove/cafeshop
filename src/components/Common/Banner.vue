@@ -2,19 +2,30 @@
     <div class="banner">
         <img src="../../assets/images/banner2.jpg" alt="Banner" class="d-none d-lg-block">
         <div class="container">
+<<<<<<< HEAD
           <div class="swiper">
             <div class="swiper-container">
               <div class="swiper-wrapper">
                   <div class="swiper-slide swiper-item" v-for="banner in bannerLists" :key="banner.id">
+=======
+            <swiper class="swiper" :options="swiperConfig">
+                <swiper-slide class="swiper-item" v-for="banner in bannerLists" :key="banner.id">
+>>>>>>> 8c8ac4eb34182153ae500e78e204442ef4759574
                     <h5>使用優惠碼<span>{{banner.coupon}}</span>折價{{banner.coupon_price}}%</h5>
                     <h2>{{banner.title}}<span>{{banner.slogan}}</span>
                     </h2>
                     <p>{{banner.description}}</p>
+<<<<<<< HEAD
                   </div>
               </div>
               <div class="swiper-pagination"></div>
             </div>
           </div>
+=======
+                    <a :href="banner.url" class="btn btn-lg rounded-0">Buy More</a>
+                </swiper-slide>
+            </swiper>
+>>>>>>> 8c8ac4eb34182153ae500e78e204442ef4759574
         </div>
     </div>
 </template>
@@ -24,7 +35,10 @@
     background-image: url("../../assets/images/banner.png")
     background-repeat: no-repeat
     background-size: contain
+<<<<<<< HEAD
     background-color: #fff
+=======
+>>>>>>> 8c8ac4eb34182153ae500e78e204442ef4759574
     padding: 60px 0 30px
     height: calc(100vh - 138px)
     position: relative
@@ -35,10 +49,15 @@
         top: 0
         right: 0
         width: 40vw
+<<<<<<< HEAD
         z-index: 0
     .swiper
       width: 50%
       margin: auto
+=======
+    .swiper
+      width: 50%
+>>>>>>> 8c8ac4eb34182153ae500e78e204442ef4759574
       .swiper-item
         padding-left: 10%
         overflow: hidden
@@ -57,6 +76,7 @@
         .btn
             background-color: #634832
             color: #fff
+<<<<<<< HEAD
             box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12)
       .swiper-pagination
         position: relative
@@ -98,12 +118,19 @@
 </style>
 <script>
 import Swiper from 'swiper/bundle'
+=======
+            box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)
+</style>
+<script>
+import { Swiper, SwiperSlide } from 'vue-awesome-swiper'
+>>>>>>> 8c8ac4eb34182153ae500e78e204442ef4759574
 import Banner from '../../assets/data/banner.json'
 export default {
   data () {
     return {
       bannerLists: Banner,
       swiperConfig: {
+<<<<<<< HEAD
         autoplay: {
           delay: 3000,
           disableOnInteraction: false
@@ -118,6 +145,14 @@ export default {
   mounted () {
     // eslint-disable-next-line no-new
     new Swiper('.swiper-container', this.swiperConfig)
+=======
+        autoplay: true
+      }
+    }
+  },
+  components: {
+    Swiper, SwiperSlide
+>>>>>>> 8c8ac4eb34182153ae500e78e204442ef4759574
   }
 }
 </script>
