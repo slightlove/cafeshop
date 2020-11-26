@@ -1,22 +1,7 @@
 [{
-<<<<<<< HEAD
   "id": 0,
   "name": "login",
   "text": "登入",
   "icon": ["fas", "sign-in-alt"],
   "url": "login"
 }]
-=======
-    "id": 0,
-    "name": "login",
-    "text": "哇係管理員",
-    "url": "#"
-  },
-  {
-    "id": 1,
-    "name": "signup",
-    "text": "哇想當管理員",
-    "url": "#"
-  }
-]
->>>>>>> 8c8ac4eb34182153ae500e78e204442ef4759574

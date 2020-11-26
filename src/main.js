@@ -1,14 +1,6 @@
-<<<<<<< HEAD
 import Vue from 'vue'
 import Axios from 'axios'
 import VueAxios from 'vue-axios'
-=======
-// The Vue build version to load with the `import` command
-// (runtime-only or standalone) has been set in webpack.base.conf with an alias.
-import Vue from 'vue'
-import router from './router'
-import App from './App'
->>>>>>> 8c8ac4eb34182153ae500e78e204442ef4759574
 import {
   library
 } from '@fortawesome/fontawesome-svg-core'
@@ -21,7 +13,6 @@ import {
 import {
   FontAwesomeIcon
 } from '@fortawesome/vue-fontawesome'
-<<<<<<< HEAD
 import {ValidationObserver, ValidationProvider, localize, extend} from 'vee-validate'
 import { required, email } from 'vee-validate/dist/rules'
 import zw from 'vee-validate/dist/locale/zh_TW.json'
@@ -61,20 +52,10 @@ extend('mobile', (value) => {
   }
   return false
 })
-=======
-import VueAwesomeSwiper from 'vue-awesome-swiper'
-import 'swiper/swiper-bundle.css'
-library.add(fas, fab)
-Vue.component('font-awesome-icon', FontAwesomeIcon)
-Vue.use(VueAwesomeSwiper)
-Vue.config.productionTip = false
-
->>>>>>> 8c8ac4eb34182153ae500e78e204442ef4759574
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
-<<<<<<< HEAD
   components: { App },
   template: '<App/>'
 })
@@ -96,10 +77,3 @@ router.beforeEach((to, from, next) => {
     next()
   }
 })
-=======
-  components: {
-    App
-  },
-  template: '<App/>'
-})
->>>>>>> 8c8ac4eb34182153ae500e78e204442ef4759574
